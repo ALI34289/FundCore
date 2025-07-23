@@ -294,6 +294,90 @@ body {
     display: block;
 }
 
+/* Services Page */
+.call-center-services {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.service-icon {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-desc {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-learn-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-learn-more:hover {
+    background-color: #0056b3;
+}
+
+.cta-services {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.cta-services a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.cta-services a:hover {
+    border-bottom: 2px solid #007bff;
+}
+
 /* Why Choose Us Section */
 .why-choose-us {
     padding: 40px 20px;
