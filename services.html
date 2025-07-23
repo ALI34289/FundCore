@@ -3,106 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - BPO and Call Center</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Services - BPO and Call Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <div class="top-bar">
-            <div class="contact-info">
-                <span>+91-9999999999</span>
-                <span>info@yourbpo.com</span>
-            </div>
+<body class="bg-gray-50 font-sans">
+    <header class="site-header">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">YourBPO</div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="services.html" class="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600">About Us</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact Us</a>
+            </nav>
         </div>
-        <nav class="main-nav">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo_placeholder.png" alt="Logo"></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="industries.html">Industries We Serve</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="team.html">Our Team</a></li>
-                <li><a href="careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
-        <section class="page-title">
-            <div class="container">
-                <h1>Our Services</h1>
+        <section class="bg-blue-600 text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Elevate Your Customer Experience</h1>
+                <p class="mt-4 text-lg md:text-xl">Discover our comprehensive BPO and call center solutions designed for growth.</p>
+                <a href="#contact" class="mt-8 inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition-colors">
+                    Get a Free Quote
+                </a>
             </div>
         </section>
 
-        <section class="call-center-services">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Our Call Center Services</h2>
-                    <p>Comprehensive solutions to support your customers 24/7.</p>
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Our Services</h2>
+                    <p class="text-gray-600 mt-2">Tailored solutions to meet your business needs.</p>
                 </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-headset"></i></div>
-                        <h3 class="service-title">Inbound Call Center</h3>
-                        <p class="service-desc">Efficiently handling all incoming customer calls.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-4">Inbound Call Center</h3>
+                        <p class="text-gray-700 mb-4">Professional handling of all your inbound customer queries and support needs.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More &rarr;</a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-phone-volume"></i></div>
-                        <h3 class="service-title">Outbound Call Center</h3>
-                        <p class="service-desc">Proactive outreach to boost sales and engagement.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-4">Outbound Call Center</h3>
+                        <p class="text-gray-700 mb-4">Proactive outreach to engage customers and drive sales and marketing efforts.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More &rarr;</a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-users"></i></div>
-                        <h3 class="service-title">Customer Support</h3>
-                        <p class="service-desc">Providing exceptional support to your customers.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
+                    <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="text-2xl font-bold mb-4">Chat Support</h3>
+                        <p class="text-gray-700 mb-4">Real-time chat assistance to provide instant support to your website visitors.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Learn More &rarr;</a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-cogs"></i></div>
-                        <h3 class="service-title">Technical Support</h3>
-                        <p class="service-desc">Expert assistance for all technical queries.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-comments"></i></div>
-                        <h3 class="service-title">Chat Support</h3>
-                        <p class="service-desc">Real-time support through live chat.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon"><i class="fas fa-envelope-open-text"></i></div>
-                        <h3 class="service-title">Email Support</h3>
-                        <p class="service-desc">Professional and timely responses to emails.</p>
-                        <a href="#" class="btn-learn-more">Learn More</a>
-                    </div>
-                </div>
-                <div class="cta-services">
-                    <p>Need a custom solution? <a href="contact.html">Let’s talk.</a></p>
                 </div>
             </div>
         </section>
+
+        <section class="bg-gray-100 py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">What Our Clients Say</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <p class="text-gray-700 italic">"Their team is professional, and their services are top-notch. We've seen a significant improvement in customer satisfaction."</p>
+                        <div class="mt-4 flex items-center">
+                            <img class="w-12 h-12 rounded-full mr-4" src="images/client1.png" alt="Client 1">
+                            <div>
+                                <p class="font-bold">Jane Doe</p>
+                                <p class="text-sm text-gray-600">CEO, Tech Innovators</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <p class="text-gray-700 italic">"A reliable partner for our BPO needs. Their support has been instrumental in our growth."</p>
+                        <div class="mt-4 flex items-center">
+                            <img class="w-12 h-12 rounded-full mr-4" src="images/client2.png" alt="Client 2">
+                            <div>
+                                <p class="font-bold">John Smith</p>
+                                <p class="text-sm text-gray-600">COO, Global Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-blue-600 text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold">Ready to Transform Your Business?</h2>
+                <p class="mt-4 text-lg md:text-xl">Let's discuss how our services can help you achieve your goals.</p>
+                <a href="#" class="mt-8 inline-block bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition-colors">
+                    Contact Us
+                </a>
+            </div>
+        </section>
     </main>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-contact">
-                <p>Email: info@yourbpo.com</p>
-                <p>Phone: +91-9999999999</p>
-            </div>
-            <div class="footer-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Your BPO. All Rights Reserved.</p>
         </div>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
